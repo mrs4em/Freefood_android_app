@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_height="fill_parent" android:layout_width="fill_parent"
+>
+ 
+<ImageView android:id="@+id/bannerImage"
+    android:src = "@drawable/tj"
+android:layout_width="fill_parent" android:layout_height="75dpi"
+android:layout_alignParentTop="true" />
+ 
+<ListView android:id="@+id/android:list" android:layout_width="fill_parent"
+android:layout_height="fill_parent" android:layout_marginTop="10dpi"
+android:layout_below="@+id/bannerImage" android:drawSelectorOnTop="false"
+android:layout_marginBottom="60dip" android:cacheColorHint="#00000000" />
+ 
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+    
+    
+	<Button
+        android:id="@+id/btnChangeDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_date" 
+		android:onClick="datePick" />
+
+    
+    
+    <Button android:id="@+id/getButton"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_send" 
+        android:layout_alignParentRight="true" 
+        android:layout_toRightOf="@id/btnChangeDate"
+        android:onClick="sendMessage" />
+    
+    <EditText android:id="@+id/edit_message2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/btnChangeDate"
+        android:layout_toLeftOf="@+id/putButton" 
+        android:hint="@string/put_hint" />
+    
+    <Button android:id="@id/putButton"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_send2" 
+        android:layout_alignParentRight="true" 
+        android:layout_below="@id/getButton"
+        android:onClick="sendMessage2" />
+    
+    <EditText android:id="@+id/event_description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/putButton"        
+        android:hint="description" />
+    
+    <EditText android:id="@+id/event_date"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/event_description"        
+        android:hint="Date (yyyy-mm-dd)" />
+    
+     <EditText android:id="@+id/event_time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/event_date"        
+        android:hint="Time (24hour hh:mm:ss)" />
+     
+      <EditText android:id="@+id/event_location"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/event_time"        
+        android:hint="Location" />
+    
+    
+
+</RelativeLayout>

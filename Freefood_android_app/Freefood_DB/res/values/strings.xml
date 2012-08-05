@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    <string name="app_name">Freefood_DB</string>
+    
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">See list</string>
+    <string name="button_send2">Add event</string>
+    <string name="button_get">Add</string>
+    <string name="city_info">There is no such information</string>
+    <string name="get_hint">search for name</string>
+    <string name="put_hint">enter event name</string>
+    <string name="choose_date">Select Date</string>
+    <string name="profile_text">Profile</string>
+    <string name="addEvent_text">Add Event</string>
+    
+
+</resources>
